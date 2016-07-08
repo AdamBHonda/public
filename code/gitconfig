@@ -1,0 +1,6 @@
+git config remote.origin prune true
+git config --global user.name "Your Name"
+git config --global user.email your.name@company.com
+git config --global core.excludesfile ~/.gitignore
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow) %cd - %d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+echo '*.swp' >> ~/.gitignore
